@@ -1,0 +1,4 @@
+#Mon Mar 05 10:39:39 MST 2018
+base.0=C\:\\Users\\mmissildine\\Dropbox\\Apps\\Android_Studio\\VirtueGrow\\app\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex
