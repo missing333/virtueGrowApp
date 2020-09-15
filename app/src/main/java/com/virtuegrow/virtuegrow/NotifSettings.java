@@ -11,6 +11,8 @@ import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
+import java.util.Objects;
+
 /**
  * Created by mmissildine on 1/17/2018.
  */
@@ -18,7 +20,6 @@ import android.util.Log;
 public class NotifSettings extends PreferenceActivity {
 
     private final static String TAG = "vg";
-    public Preference time;
 
     public NotifSettings() {
     }
@@ -45,7 +46,7 @@ public class NotifSettings extends PreferenceActivity {
             PreferenceManager.getDefaultSharedPreferences(getContext()).registerOnSharedPreferenceChangeListener(this);
 
             TimePreference tp = (TimePreference) getPreferenceManager().findPreference("timePref_Key");
-            tp.showTime(tp.getH(), tp.getM());
+            Objects.requireNonNull(tp).showTime(tp.getH(), tp.getM());
         }
 
         public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {

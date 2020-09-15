@@ -1,9 +1,5 @@
 package com.virtuegrow.virtuegrow;
 
-/**
- * Created by mmissildine on 1/22/2018.
- */
-
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.preference.DialogPreference;
@@ -16,8 +12,6 @@ public class TimePreference extends DialogPreference {
     private int lastHour = 7;
     private int lastMinute = 0;
     private TimePicker picker = null;
-    private String format = "";
-    private Preference time;
 
 
     public static int getHour(String time) {
@@ -62,7 +56,7 @@ public class TimePreference extends DialogPreference {
             lastHour = picker.getCurrentHour();
             lastMinute = picker.getCurrentMinute();
 
-            String time = String.valueOf(lastHour) + ":" + String.valueOf(lastMinute);
+            String time = lastHour + ":" + lastMinute;
 
             showTime(lastHour, lastMinute);
 
@@ -79,7 +73,7 @@ public class TimePreference extends DialogPreference {
 
     @Override
     protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
-        String time = null;
+        String time;
 
         if (restoreValue) {
             if (defaultValue == null) {
@@ -104,6 +98,7 @@ public class TimePreference extends DialogPreference {
     }
 
     public void showTime(int hour, int min) {
+        String format;
         if (hour == 0) {
             hour += 12;
             format = "AM";
@@ -115,7 +110,7 @@ public class TimePreference extends DialogPreference {
         } else {
             format = "AM";
         }
-        time = findPreferenceInHierarchy("timePref_Key");
+        Preference time = findPreferenceInHierarchy("timePref_Key");
         if (min < 10) {
             time.setSummary(new StringBuilder().append(hour).append(":0").append(min).append(" ").append(format));
         } else {

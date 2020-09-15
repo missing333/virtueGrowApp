@@ -26,6 +26,6 @@
     <Preference
         android:key="appVersion"
         android:title="@string/version"
-        android:summary="1.0.1"/>
+        android:summary="@string/versionNum"/>
 
 </PreferenceScreen>

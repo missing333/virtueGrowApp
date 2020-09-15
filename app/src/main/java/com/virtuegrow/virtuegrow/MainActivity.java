@@ -21,10 +21,10 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
+@SuppressWarnings("SpellCheckingInspection")
 public class MainActivity extends AppCompatActivity {
 
     private WebView webView;
-    private AppBarLayout mAppBarLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         toolbar.setTitle("");
 
-        mAppBarLayout = (AppBarLayout) findViewById(R.id.appbar);
+        AppBarLayout mAppBarLayout = (AppBarLayout) findViewById(R.id.appbar);
         mAppBarLayout.setElevation(0);
         mAppBarLayout.setOutlineProvider(null); // this command will crash app if below SDK 21
 
@@ -59,7 +59,10 @@ public class MainActivity extends AppCompatActivity {
             calendar.setTimeInMillis(System.currentTimeMillis());
 
             String timePref = sharedPref.getString("timePref_Key", "7:0");
-            String[] separated = timePref.split(":");
+            String[] separated = new String[0];
+            if (timePref != null) {
+                separated = timePref.split(":");
+            }
             int hour = Integer.parseInt(separated[0]);
             int min = Integer.parseInt(separated[1]);
 
