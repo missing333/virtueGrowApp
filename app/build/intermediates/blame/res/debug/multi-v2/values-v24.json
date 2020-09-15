@@ -1,65 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Marc\\Dropbox\\Apps\\Android_Studio\\VirtueGrow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\android\\virtueGrowApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Marc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\a21835a8c8b5b0c10014fc19f731b2e3\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\mmissildine\\.gradle\\caches\\transforms-2\\files-2.1\\4458c9c05cd1e45f3462845bbb5f6a7c\\appcompat-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,212,347,416,480,549",
-                        "endColumns": "156,134,68,63,68,69",
-                        "endOffsets": "207,342,411,475,544,614"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Marc\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\835c08cc6aee33c836c2c3731e968e75\\res\\values-v24\\values-v24.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,121,182,248",
-                        "endColumns": "65,60,65,66",
-                        "endOffsets": "116,177,243,310"
-                    },
-                    "to": {
-                        "startLines": "8,9,10,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "619,685,746,812",
-                        "endColumns": "65,60,65,66",
-                        "endOffsets": "680,741,807,874"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\mmissildine\\Dropbox\\Apps\\Android_Studio\\VirtueGrow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\mmissildine\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\028f0b9a1ab72086f2c9f1294326d467\\res\\values-v24\\values-v24.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,212,347,416,480,549",
-                        "endColumns": "156,134,68,63,68,69",
-                        "endOffsets": "207,342,411,475,544,614"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\mmissildine\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\051f3544a3ba0438c9fcaff64013a0e6\\res\\values-v24\\values-v24.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,121,182,248",
-                        "endColumns": "65,60,65,66",
-                        "endOffsets": "116,177,243,310"
-                    },
-                    "to": {
-                        "startLines": "8,9,10,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "619,685,746,812",
-                        "endColumns": "65,60,65,66",
-                        "endOffsets": "680,741,807,874"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
                     }
                 }
             ]

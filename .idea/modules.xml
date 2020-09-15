@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/VirtueGrow.iml" filepath="$PROJECT_DIR$/VirtueGrow.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="virtueGrowApp/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/virtueGrowApp.iml" filepath="$PROJECT_DIR$/.idea/modules/virtueGrowApp.iml" group="virtueGrowApp" />
     </modules>
   </component>
 </project>

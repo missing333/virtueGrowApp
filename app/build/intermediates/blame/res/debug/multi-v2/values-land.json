@@ -1,69 +1,35 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\mmissildine\\Dropbox\\Apps\\Android_Studio\\VirtueGrow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "C:\\android\\virtueGrowApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mmissildine\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\028f0b9a1ab72086f2c9f1294326d467\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\mmissildine\\.gradle\\caches\\transforms-2\\files-2.1\\4458c9c05cd1e45f3462845bbb5f6a7c\\appcompat-1.0.0\\res\\values-land\\values-land.xml",
                     "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
                     }
                 },
                 {
-                    "source": "C:\\Users\\mmissildine\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\5973214bd3f22f32f9058fe2019d7519\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\mmissildine\\.gradle\\caches\\transforms-2\\files-2.1\\d9fe90b20373e53cda14cf70a3a9d6b6\\material-1.0.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
                         "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "232"
+                        "endColumns": "10",
+                        "endOffsets": "222"
                     },
                     "to": {
-                        "startLines": "6",
+                        "startLines": "5",
                         "startColumns": "4",
-                        "startOffsets": "328",
-                        "endLines": "9",
-                        "endColumns": "12",
-                        "endOffsets": "505"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Marc\\Dropbox\\Apps\\Android_Studio\\VirtueGrow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\Marc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\a21835a8c8b5b0c10014fc19f731b2e3\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Marc\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\0fb2ac70829c0e563256d19dfa77c014\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "232"
-                    },
-                    "to": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "328",
-                        "endLines": "9",
-                        "endColumns": "12",
-                        "endOffsets": "505"
+                        "startOffsets": "264",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "431"
                     }
                 }
             ]
