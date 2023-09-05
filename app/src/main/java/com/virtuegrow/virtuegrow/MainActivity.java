@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             Intent intent1 = new Intent(context, MyReceiver.class);
-            PendingIntent pendingIntent = PendingIntent.getBroadcast(context, 0, intent1, PendingIntent.FLAG_UPDATE_CURRENT);
+            PendingIntent pendingIntent = PendingIntent.getBroadcast(context, 0, intent1, PendingIntent.FLAG_IMMUTABLE);
 
             AlarmManager am = (AlarmManager) context.getSystemService(ALARM_SERVICE);
             am.setInexactRepeating(AlarmManager.RTC, calendar.getTimeInMillis(), AlarmManager.INTERVAL_DAY, pendingIntent);

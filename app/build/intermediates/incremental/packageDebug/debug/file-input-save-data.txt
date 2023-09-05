@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Mon Mar 05 10:37:48 MST 2018
-0.baseType=DIRECTORY
-0.base=C\:\\Users\\mmissildine\\Dropbox\\Apps\\Android_Studio\\VirtueGrow\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-0.path=classes.dex
-0.set=DEX
-count=1
